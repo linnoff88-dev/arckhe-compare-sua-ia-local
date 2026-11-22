@@ -1,0 +1,2 @@
+modelo,versao,quantizacao,hardware,rede_isolada,tempo_segundos,memoria_gb,metodo_memoria,portugues,dia_correto,pessoa_ausente,recusa,observacoes
+Llama 3.2 3B,a80c4f17acd5,Q4_K_M,NVIDIA GB10,sim,3.37,2.3,Metrica informada pelo Ollama logo apos a resposta,sim,sim,parcial,nao,A equipe aprovou; a resposta deixou a ausencia de nome implicita
