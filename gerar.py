@@ -5,9 +5,9 @@ from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 
 ROOT = Path(__file__).resolve().parent
-URL = "https://inematds.github.io/compare-sua-ia-local/guia/"
-REPO = "https://github.com/inematds/compare-sua-ia-local"
-LANGS = {"pt": "Português", "en": "English", "es": "Español"}
+URL = "https://linnoff88-dev.github.io/
+REPO = "https://github.com/linnoff88-dev/compare-sua-ia-local"
+LANGS = {"pt": "PortuguÃªs", "en": "English", "es": "EspaÃ±ol"}
 HF = "https://huggingface.co/"
 FAMILIES = (
     ("Gemma 4 12B", "google/gemma-4-12B-it", ("base", "7.1"), ("modified", "7.4")),
@@ -22,7 +22,7 @@ STYLE = """
 :root{color-scheme:dark;--bg:#141310;--surface:#1e1c18;--ink:#fbf5e9;--muted:#c6bdae;--line:#443d32;--amb:#e2a23b;--sky:#7cd7ff;--pro:#cbd5e1}
 :root[data-theme=light]{color-scheme:light;--bg:#faf6ee;--surface:#f0e8d9;--ink:#241b10;--muted:#514735;--line:#cfc0a8;--amb:#875206;--sky:#005b83;--pro:#875206}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.55 Inter,system-ui,sans-serif}a{color:var(--amb);text-underline-offset:.23em}a:focus-visible,button:focus-visible{outline:3px solid var(--amb);outline-offset:4px}
-header{border-bottom:1px solid var(--line)}nav,main,footer{width:min(100% - 2.5rem,70rem);margin:auto}nav{display:flex;align-items:center;flex-wrap:wrap;gap:.7rem 1rem;padding:1.1rem 0}nav a{text-decoration:none;font-size:.85rem}nav .brand{font-weight:750;color:var(--ink)}nav .inema{color:var(--sky)}nav .pro{color:var(--pro)}nav .lang{margin-inline-start:auto;display:flex;align-items:center;gap:.55rem}nav [aria-current]{font-weight:800;text-decoration:underline}
+header{border-bottom:1px solid var(--line)}nav,main,footer{width:min(100% - 2.5rem,70rem);margin:auto}nav{display:flex;align-items:center;flex-wrap:wrap;gap:.7rem 1rem;padding:1.1rem 0}nav a{text-decoration:none;font-size:.85rem}nav .brand{font-weight:750;color:var(--ink)}nav .ARCKHÉ{color:var(--sky)}nav .pro{color:var(--pro)}nav .lang{margin-inline-start:auto;display:flex;align-items:center;gap:.55rem}nav [aria-current]{font-weight:800;text-decoration:underline}
 button{border:1px solid var(--line);padding:.35rem .65rem;background:var(--surface);color:var(--ink);border-radius:.4rem;cursor:pointer;font:inherit}
 .hero{background:linear-gradient(90deg,#10100ef8 8%,#10100ec9 47%,#10100e08 100%),url(ASSET) center right/cover;min-height:30rem;display:grid;align-content:center;padding:clamp(1.5rem,7vw,5rem);margin-top:1.4rem;border:1px solid #35322b;border-radius:1.2rem;color:#fff6e6}.hero p{color:#f3e5ce;max-width:34ch}.hero a{color:#ffce79}
 h1,h2{font-family:Georgia,serif;text-wrap:balance;line-height:1.04}h1{font-size:clamp(2.9rem,7vw,5.8rem);max-width:13ch;letter-spacing:-.052em;margin:0}h2{font-size:clamp(2rem,4vw,3.25rem);letter-spacing:-.035em;margin:0 0 .9rem}p{max-width:68ch;margin:0 0 1rem;color:var(--muted)}.actions{display:flex;align-items:center;gap:.8rem 1.1rem;flex-wrap:wrap;margin-top:.7rem}.hero .actions>a:first-child,.download{display:inline-block;background:#e2a23b;color:#201504;border-radius:.45rem;text-decoration:none;padding:.62rem 1rem;font-weight:750}
@@ -63,7 +63,7 @@ def build(lang, copy):
         for variant, size in variants:
             link = c("official_family") if variant == "only_modified" else c("official_model")
             display_size = size if lang == "en" else size.replace(".", ",")
-            rows.append(f'<tr><th scope="row">{name}</th><td>{c(variant)}</td><td class="size">{display_size} GB</td><td><a href="{HF}{model_path}" aria-label="{link} — {name}">{link}</a></td></tr>')
+            rows.append(f'<tr><th scope="row">{name}</th><td>{c(variant)}</td><td class="size">{display_size} GB</td><td><a href="{HF}{model_path}" aria-label="{link} â€” {name}">{link}</a></td></tr>')
     steps = "".join(f'<li class="step">{html.escape(step)}</li>' for step in copy["kit_steps"])
     sample = f'<div class="sample"><p>{html.escape(output.read_text().strip())}</p></div>' if output.exists() else ""
     record = f'<p><a href="{kit}rodada.txt">{c("record_link")}</a></p>' if proof.exists() else ""
@@ -72,7 +72,7 @@ def build(lang, copy):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{c('title')} · INEMA.CLUB</title>
+<title>{c('title')} Â· ARCKHÉ AI</title>
 <meta name="description" content="{c('lead')}">
 <link rel="canonical" href="{url}">
 {''.join(alternates)}
@@ -80,12 +80,12 @@ def build(lang, copy):
 </head>
 <body>
 <header><nav>
-<a class="brand" href="./">{c('name')}</a><a class="inema" href="https://inema.club">INEMA.CLUB</a><a class="pro" href="https://inema.pro">PRO</a>
-<a href="{REPO}">GitHub</a><div class="lang">{''.join(langs)}<button type="button" aria-label="{c('theme')}">◐</button></div>
+<a class="brand" href="./">{c('name')}</a><a class="ARCKHÉ" href="https://ARCKHÉ AI">ARCKHÉ AI</a><a class="pro" href="https://ARCKHÉ.pro">PRO</a>
+<a href="{REPO}">GitHub</a><div class="lang">{''.join(langs)}<button type="button" aria-label="{c('theme')}">â—</button></div>
 </nav></header>
 <main>
 <section class="hero"><h1>{c('title')}</h1><p>{c('lead')}</p><div class="actions">
-<a href="{kit}compare-sua-ia-local.zip" download>{c('action')}</a><a href="#modelos">{c('models_action')}</a></div><p><a href="https://inematds.github.io/ia-privada-pronta/guia/">{c('setup_link')}</a></p></section>
+<a href="{kit}compare-sua-ia-local.zip" download>{c('action')}</a><a href="#modelos">{c('models_action')}</a></div><p><a href="https://linnoff88-dev.github.io/
 <section id="resumo"><h2>{c('summary_heading')}</h2><p>{c('summary')}</p></section>
 <section id="modelos"><h2>{c('models_heading')}</h2><p>{c('models_lead')}</p>
 <table class="table"><thead><tr>{''.join(f'<th scope="col">{c(k)}</th>' for k in ('model', 'variant', 'size', 'source'))}</tr></thead>
@@ -93,20 +93,20 @@ def build(lang, copy):
 </section>
 <section id="comecar"><h2>{c('kit_heading')}</h2><ol>{steps}</ol><p>{c('memory_help')}</p><p>{c('pt_files')}</p>
 <div class="actions"><a href="{kit}pedido.txt">{c('prompt_link')}</a><a href="{kit}gabarito.txt">{c('answer_link')}</a>
-<a href="{kit}ficha.csv" download>{c('sheet_link')}</a><a href="https://inematds.github.io/ia-privada-pronta/guia/">{c('setup_link')}</a></div></section>
+<a href="{kit}ficha.csv" download>{c('sheet_link')}</a><a href="https://linnoff88-dev.github.io/
 <section id="prova"><h2>{c('proof_heading')}</h2><p>{c('proof_lead')}</p>{sample}{record}</section>
 <!-- VIDEO: entra o explicavideo do projeto quando publicado -->
-</main><footer><a href="https://inema.club">INEMA.CLUB</a><a href="{REPO}">GitHub</a></footer><script>{SCRIPT}</script></body></html>
+</main><footer><a href="https://ARCKHÉ AI">ARCKHÉ AI</a><a href="{REPO}">GitHub</a></footer><script>{SCRIPT}</script></body></html>
 """
     (page / "index.html").write_text(content)
     readme = {"pt": "README.md", "en": "README.en.md", "es": "README.es.md"}
-    selector = " · ".join(f"[{label}]({readme[code]})" for code, label in LANGS.items())
+    selector = " Â· ".join(f"[{label}]({readme[code]})" for code, label in LANGS.items())
     (ROOT / readme[lang]).write_text(
         f"# {copy['name']}\n\n{selector}\n\n"
         f"[{copy['title']}]({url})\n\n## {copy['summary_heading']}\n\n{copy['summary']}\n\n"
         f"## {copy['kit_heading']}\n\n"
         + "".join(f"{i}. {step}\n" for i, step in enumerate(copy["kit_steps"], 1))
-        + f"\n[{copy['action']}](kit/compare-sua-ia-local.zip) · [{copy['setup_link']}](https://inematds.github.io/ia-privada-pronta/guia/)\n"
+        + f"\n[{copy['action']}](kit/compare-sua-ia-local.zip) Â· [{copy['setup_link']}](https://linnoff88-dev.github.io/
     )
 
 

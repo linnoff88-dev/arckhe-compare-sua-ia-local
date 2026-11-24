@@ -1,8 +1,8 @@
-# 14 Uncensored AI Providers
+﻿# 14 Uncensored AI Providers
 
-[Português](README.md) · [English](README.en.md) · [Español](README.es.md)
+[PortuguÃªs](README.md) Â· [English](README.en.md) Â· [EspaÃ±ol](README.es.md)
 
-[14 Uncensored AI Providers](https://inematds.github.io/compare-sua-ia-local/guia/en/)
+[14 Uncensored AI Providers](https://linnoff88-dev.github.io/
 
 ## A test before you choose
 
@@ -14,4 +14,4 @@ This kit helps anyone choosing an AI to run on their own computer. You give the 
 2. Paste the same prompt into each model. Time from submission until the response is complete. If possible, note the memory use right afterward, while the model is still open.
 3. Compare with the answer key. Mark whether the date is correct, the name is omitted, and the response is in Portuguese. If the model fails to load, leave the quality field blank.
 
-[Download the kit](kit/compare-sua-ia-local.zip) · [Offline installation and usage guide](https://inematds.github.io/ia-privada-pronta/guia/)
+[Download the kit](kit/compare-sua-ia-local.zip) Â· [Offline installation and usage guide](https://linnoff88-dev.github.io/

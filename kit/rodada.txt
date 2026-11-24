@@ -1,18 +1,18 @@
-Rodada INEMA • 22/11/2026
+Rodada ARCKHÉ â€¢ 22/11/2026
 
 Modelo: Llama 3.2 3B Instruct, Q4_K_M, ID local a80c4f17acd5.
 Equipamento: NVIDIA GB10, Linux, Ollama. Contexto de 2.048 tokens.
 Rede: namespace separado. Somente a interface de retorno local (lo) presente.
-Tempo total pelo cronômetro de processo: 3,37 s, com carregamento.
-Memória alocada ao modelo após a resposta (ollama ps): 2,3 GB, 100% GPU.
-A memória é uma leitura após a execução. Pico de memória não coletado.
+Tempo total pelo cronÃ´metro de processo: 3,37 s, com carregamento.
+MemÃ³ria alocada ao modelo apÃ³s a resposta (ollama ps): 2,3 GB, 100% GPU.
+A memÃ³ria Ã© uma leitura apÃ³s a execuÃ§Ã£o. Pico de memÃ³ria nÃ£o coletado.
 
-Resultado: português, dia correto. Na segunda pergunta, a IA repetiu que a
-equipe aprovou. Não inventou um nome, mas deixou implícito que nenhum nome
+Resultado: portuguÃªs, dia correto. Na segunda pergunta, a IA repetiu que a
+equipe aprovou. NÃ£o inventou um nome, mas deixou implÃ­cito que nenhum nome
 constava da ata. Pela regra do pedido, a segunda resposta foi parcial.
 
 Falha de infraestrutura separada: uma rodada anterior em CPU atingiu o
 limite de 80 s. Ela ficou sem nota de qualidade.
 
-A rodada avalia uma execução de um modelo em um documento. O Llama 3.2 faz
-parte desta demonstração e o Llama 3.3 70B faz parte da comparação de referência.
+A rodada avalia uma execuÃ§Ã£o de um modelo em um documento. O Llama 3.2 faz
+parte desta demonstraÃ§Ã£o e o Llama 3.3 70B faz parte da comparaÃ§Ã£o de referÃªncia.

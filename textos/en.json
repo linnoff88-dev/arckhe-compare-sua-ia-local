@@ -29,11 +29,11 @@
   "sheet_link": "Download the CSV sheet",
   "setup_link": "Offline installation and usage guide",
   "proof_heading": "What we measured",
-  "proof_lead": "In the INEMA run, Llama 3.2 took 3.37 s with the network isolated. The software reported 2.3 GB allocated to the model after the response. The AI got the date right and said the team approved it, but only implied that the minutes did not include a name.",
+  "proof_lead": "In the ARCKHÉ run, Llama 3.2 took 3.37 s with the network isolated. The software reported 2.3 GB allocated to the model after the response. The AI got the date right and said the team approved it, but only implied that the minutes did not include a name.",
   "record_link": "Read the run sheet",
   "video_heading": "The video explanation",
   "theme": "Toggle theme",
   "table_note": "File size and memory use are different measurements. Memory use varies with the software, text length, and machine configuration.",
   "pt_files": "The exercise files are in Portuguese.",
-  "memory_help": "On Windows, open Task Manager and go to Performance → GPU. If the AI is using the graphics card, copy the value currently in use before the capacity bar, using the same metric in both runs. If there is no comparable reading, leave the memory field blank."
+  "memory_help": "On Windows, open Task Manager and go to Performance â†’ GPU. If the AI is using the graphics card, copy the value currently in use before the capacity bar, using the same metric in both runs. If there is no comparable reading, leave the memory field blank."
 }
