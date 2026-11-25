@@ -1,5 +1,5 @@
 1. Quinta-feira.
-2. A ata não identifica uma pessoa. Diz apenas que a equipe aprovou a mudança.
+2. A ata nêo identifica uma pessoa. Diz apenas que a equipe aprovou a mudança.
 
 Aceite equivalentes semânticos. “Terça-feira” na resposta 1 ou um nome na
-resposta 2 são erros. Deixe a qualidade em branco se o modelo não carregar.
+resposta 2 sêo erros. Deixe a qualidade em branco se o modelo nêo carregar.

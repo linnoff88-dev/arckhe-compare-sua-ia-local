@@ -1,6 +1,6 @@
 ﻿# 14 Uncensored AI Providers
 
-[PortuguÃªs](README.md) Â· [English](README.en.md) Â· [EspaÃ±ol](README.es.md)
+[Português](README.md) Â· [English](README.en.md) Â· [Espaê±ol](README.es.md)
 
 [14 Uncensored AI Providers](https://linnoff88-dev.github.io/
 

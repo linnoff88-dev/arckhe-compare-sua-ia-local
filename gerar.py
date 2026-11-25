@@ -7,7 +7,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 ROOT = Path(__file__).resolve().parent
 URL = "https://linnoff88-dev.github.io/
 REPO = "https://github.com/linnoff88-dev/compare-sua-ia-local"
-LANGS = {"pt": "PortuguÃªs", "en": "English", "es": "EspaÃ±ol"}
+LANGS = {"pt": "Português", "en": "English", "es": "Espaê±ol"}
 HF = "https://huggingface.co/"
 FAMILIES = (
     ("Gemma 4 12B", "google/gemma-4-12B-it", ("base", "7.1"), ("modified", "7.4")),

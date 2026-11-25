@@ -1,18 +1,18 @@
-Rodada ARCKHÉ â€¢ 22/11/2026
+Rodada ARCKHê ê¢â¬Â¢ 22/11/2026
 
 Modelo: Llama 3.2 3B Instruct, Q4_K_M, ID local a80c4f17acd5.
 Equipamento: NVIDIA GB10, Linux, Ollama. Contexto de 2.048 tokens.
 Rede: namespace separado. Somente a interface de retorno local (lo) presente.
-Tempo total pelo cronÃ´metro de processo: 3,37 s, com carregamento.
-MemÃ³ria alocada ao modelo apÃ³s a resposta (ollama ps): 2,3 GB, 100% GPU.
-A memÃ³ria Ã© uma leitura apÃ³s a execuÃ§Ã£o. Pico de memÃ³ria nÃ£o coletado.
+Tempo total pelo cronêÂ´metro de processo: 3,37 s, com carregamento.
+MemêÂ³ria alocada ao modelo apêÂ³s a resposta (ollama ps): 2,3 GB, 100% GPU.
+A memêÂ³ria êÂ© uma leitura apêÂ³s a execuêÂ§êÂ£o. Pico de memêÂ³ria nêÂ£o coletado.
 
-Resultado: portuguÃªs, dia correto. Na segunda pergunta, a IA repetiu que a
-equipe aprovou. NÃ£o inventou um nome, mas deixou implÃ­cito que nenhum nome
+Resultado: portuguêÂªs, dia correto. Na segunda pergunta, a IA repetiu que a
+equipe aprovou. NêÂ£o inventou um nome, mas deixou implêÂ­cito que nenhum nome
 constava da ata. Pela regra do pedido, a segunda resposta foi parcial.
 
 Falha de infraestrutura separada: uma rodada anterior em CPU atingiu o
 limite de 80 s. Ela ficou sem nota de qualidade.
 
-A rodada avalia uma execuÃ§Ã£o de um modelo em um documento. O Llama 3.2 faz
-parte desta demonstraÃ§Ã£o e o Llama 3.3 70B faz parte da comparaÃ§Ã£o de referÃªncia.
+A rodada avalia uma execuêÂ§êÂ£o de um modelo em um documento. O Llama 3.2 faz
+parte desta demonstraêÂ§êÂ£o e o Llama 3.3 70B faz parte da comparaêÂ§êÂ£o de referêÂªncia.
